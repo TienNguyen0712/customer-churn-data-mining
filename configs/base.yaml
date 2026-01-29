@@ -1,1 +1,16 @@
+project:
+  name: customer-churn
+  random_state: 34
 
+paths:
+  raw_data: telco_customer.csv
+  reports: reports/Reports.pdf
+
+preprocessing:
+  drop_columns:
+    - 
+  target: churn
+
+split:
+  test_size: 0.2
+  stratify: true
