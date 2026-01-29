@@ -105,14 +105,14 @@ customer-churn-data-mining/
 ├── configs/
 │   ├── base.yaml
 │   ├── classification.yaml      # Định nghĩa các cáu trúc tuyến tính
-│   └── clustering.yaml      # Định nghĩa các cấu trúc phân cụm  
+│   └── clustering.yaml          # Định nghĩa các cấu trúc phân cụm  
 |
 ├── data/
 │   ├── raw/
-│   │   └── telco_cus.csv  # Học ính lớp Tiếng Bồ
+│   │   └── telco_customer.csv                   # Dữ liệu khách hàng
 │   └── processed/
-|       ├── telco_customer_classification.csv    # Bộ dữ liệu sử dụng cho tuyến tính
-│       └── telco_customer_clustering.csv    # Bộ dữ liệu sử dụng cho phân cụm
+|       ├── telco_customer_classification.csv    # Dữ liệu phân loại khách hàng
+│       └── telco_customer_clustering.csv        # Dữ liệu phân cụm
 │
 ├── notebooks/
 │   ├── 01_data_understanding.ipynb
