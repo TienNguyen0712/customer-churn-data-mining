@@ -44,9 +44,9 @@ Các câu hỏi thường thấy đối với một doanh nghiệp muốn tìm h
 ### Một số thuộc tính quan trọng
 - **Thông tin cá nhân:** `customerID`, `gender`, `SeniorCitizen`
 - **Thông tin gia đình:** `tenure`, `Partner`, `Dependents`
-- **Thông tin xã hội:** `InternetService`, `OnlineSecurity`, `OnlineBackup`, `DeviceProtection`, `TechSupport`, `StreamingTV`, `StreamingMovies`
+- **Thông tin xã hội:** `InternetService`, `OnlineSecurity`, `OnlineBackup`, `DeviceProtection`, `TechSupport`
 - **Thông tin liên lạc:** `PhoneService`, `MultipleLines`
-- **Thông tin hợp đồng:** `Contract`, `PaperlessBilling`, `PaymentMethod`, `MonthlyCharges`, `TotalCharges`, `Churn`
+- **Thông tin hợp đồng:** `Contract`, `PaperlessBilling`, `PaymentMethod`, `MonthlyCharges`, `TotalCharges`, `Churn`, `StreamingTV`, `StreamingMovies`
 
 ---
 
