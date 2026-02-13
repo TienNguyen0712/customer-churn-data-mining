@@ -125,10 +125,9 @@ customer-churn-data-mining/
 │
 ├── notebooks/
 │   ├── 01_data_understanding.ipynb
-│   ├── 02_preprocessing.ipynb
-│   ├── 03_eda.ipynb
-│   ├── 04_classification.ipynb
-│   └── 05_clustering.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_classification.ipynb
+│   └── 04_clustering.ipynb
 │
 ├── reports/
 │   ├── Report.pdf
