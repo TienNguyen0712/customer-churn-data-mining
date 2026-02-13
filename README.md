@@ -54,12 +54,21 @@ Các câu hỏi thường thấy đối với một doanh nghiệp muốn tìm h
 
 ### 1️⃣ Tiền xử lý dữ liệu ✔️
 
+Chuẩn hóa cột `SeniorCitizen` về kiểu dữ liệu phân loại và `TotalChanrge` về kiểu dữ liệu liên tục (float64). Loại bỏ các giá trị bị thiếu (cụ thể ở cột TotalCharnge sau khi chuẩn hóa có 11 dòng bị thiếu thay thế bằng 0)
 
-### 2️⃣ Phân tích mô tả (EDA) ✖️
+### 2️⃣ Phân tích mô tả (EDA) ✔️
 
+Trả lời những câu hỏi nghiên cứu 
+- Phân bố của biên mục tiêu bị mất cân bằng (không rời bỏ nhiều hơn rời bỏ)
+- Yếu tố hợp đồng, dịch vụ bảo mật, thành toán, phí dịch vụ hàng tháng, ... chính là những yếu tố ảnh hưởng đến khả năng rời bỏ
+- Rời bỏ có đặc điểm chính là cước phí cao, trải nghiệm không được tối ưu, quyền lợi cá nhân bị ảnh hưởng, thời gian sử dụng gói cước ít (theo tháng)
+- **Các biến có mối quan hệ chặt chẽ**:
+ - tenure, Tiền theo thấng, tổng cước phí: Do được tính và có mối quan hệ dương với nhau (Tổng cước phí = Tiền theo tháng * Tháng sử dụng)
+ - Các biến phân loại sử dụng Chi-bình phương và xếp hạng các mối tương quan như hợp đồng, dịch vụ internet, quyền bảo vệ người dùng, ...
   
-### 3️⃣ Huấn luyện mô hình ✖️
+### 3️⃣ Huấn luyện mô hình ✔️
 
+- Lựa chọn các đặc trưng tương quan dựa theo mối tương quan và quan hệ với biến mục tiêu (tỉ lệ rời bỏ)
 
 ### 4️⃣ Đánh giá mô hình ✖️
 
