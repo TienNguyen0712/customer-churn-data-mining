@@ -54,7 +54,8 @@ Các câu hỏi thường thấy đối với một doanh nghiệp muốn tìm h
 
 ### 1️⃣ Tiền xử lý dữ liệu ✔️
 
-Chuẩn hóa cột `SeniorCitizen` về kiểu dữ liệu phân loại và `TotalChanrge` về kiểu dữ liệu liên tục (float64). Loại bỏ các giá trị bị thiếu (cụ thể ở cột TotalCharnge sau khi chuẩn hóa có 11 dòng bị thiếu thay thế bằng 0)
+- Chuẩn hóa cột `SeniorCitizen` về kiểu dữ liệu phân loại và `TotalChanrge` về kiểu dữ liệu liên tục (float64).
+- Loại bỏ các giá trị bị thiếu (cụ thể ở cột `TotalCharnge` sau khi chuẩn hóa có 11 dòng bị thiếu thay thế bằng 0)
 
 ### 2️⃣ Phân tích mô tả (EDA) ✔️
 
@@ -80,13 +81,17 @@ Trả lời những câu hỏi nghiên cứu
 ## 🤖 Các kỹ thuật Khai phá dữ liệu được sử dụng
 
 ### 🔹 Phân loại (Classification)
-**Mục tiêu:** Dự đoán khả năng rời bỏ của khách hàng 
+**Mục tiêu:** Dự đoán khả năng rời bỏ của khách hàng sao cho tối thiểu chi phí
 
 **Thuật toán:**
-
+- Logistic Regression
+- Rabdom Forest
 
 **Đánh giá:**
-
+- Recall
+- F1-SCore
+- Accuracy
+- ROC-AUC
 ---
 
 ### 🔹 Phân cụm (Clustering)
