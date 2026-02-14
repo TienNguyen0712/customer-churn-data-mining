@@ -123,10 +123,10 @@ customer-churn-data-mining/
 |
 ├── data/
 │   ├── raw/
-│   │   └── telco_customer.csv                   # Dữ liệu khách hàng
+│   │   └── telco_customer.csv    # Dữ liệu khách hàng
 │   └── processed/
-|       ├── telco_customer_classification.csv    # Dữ liệu phân loại khách hàng
-│       └── telco_customer_clustering.csv        # Dữ liệu phân cụm
+|       ├── features.csv    # Đặc trưng phân loại
+│       └── target.csv      # Biến mục tiêu
 │
 ├── notebooks/
 │   ├── 01_data_understanding.ipynb
